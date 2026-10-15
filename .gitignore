@@ -1,0 +1,17 @@
+bin/
+build/
+*_Data/
+*.elf
+*.MAP
+*.map
+*.mot
+*.o
+*.exe
+*.dll
+*.zip
+*.pdf
+*.pptx
+*.hwp
+.env
+.env.*
+__pycache__/

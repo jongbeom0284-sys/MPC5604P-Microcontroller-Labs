@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.c text eol=lf
+*.md text eol=lf
+*.patch text eol=lf
+*.patch -whitespace
+*.png binary
+*.pmp binary

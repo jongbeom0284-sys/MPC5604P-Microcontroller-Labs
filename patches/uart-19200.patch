@@ -1,0 +1,12 @@
+--- a/src/init_base.c
++++ b/src/init_base.c
+@@ -127,7 +127,7 @@
+ //	LINFLEX_0.LINIBRR.B.DIV_M = 416;	// Baud rate = 9600, in case fipg_clock_lin = 64 MHz
+ //	LINFLEX_0.LINIBRR.B.DIV_M = 384;	// Baud rate = 10417, in case fipg_clock_lin = 64 MHz
+-//	LINFLEX_0.LINIBRR.B.DIV_M = 208;	// Baud rate = 19200, in case fipg_clock_lin = 64 MHz
++	LINFLEX_0.LINIBRR.B.DIV_M = 208;	// Baud rate = 19200, in case fipg_clock_lin = 64 MHz
+ //	LINFLEX_0.LINIBRR.B.DIV_M = 69;		// Baud rate = 57600, in case fipg_clock_lin = 64 MHz
+-	LINFLEX_0.LINIBRR.B.DIV_M = 34;		// Baud rate = 115200, in case fipg_clock_lin = 64 MHz
++//	LINFLEX_0.LINIBRR.B.DIV_M = 34;		// Baud rate = 115200, in case fipg_clock_lin = 64 MHz
+ 
+ 	LINFLEX_0.LINCR1.B.INIT = 0x0;      // normal mode
